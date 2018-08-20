@@ -84,7 +84,7 @@
   <a href="http://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">
     Coracias CoreAgent - Artificial Intelligent Stenographer – CoreNLP</a> Demonstration</h1>
 <div id="info">
-  <p id="info_start">Click on the microphone icon and begin speaking.</p>
+  <p id="info_start">To start meeting, click on the microphone icon and begin speaking.</p>
   <p id="info_speak_now">Speak now.</p>
   <p id="info_no_speech">No speech was detected. You may need to adjust your
     <a href="//support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">
@@ -124,6 +124,14 @@
     <div id="email_info" class="info">
       Text sent to default email application.<br>
       (See chrome://settings/handlers to change.)
+    </div>
+  </div>
+ <div class="sidebyside">
+    <button id="email_button" class="button" onclick="emailButton()">
+      Save Meeting</button>
+    <div id="email_info" class="info">
+      Meeting Minutes Saved.<br>
+      Meeting Ended.
     </div>
   </div>
   <p>
